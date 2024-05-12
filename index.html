@@ -11,14 +11,21 @@
             background-color: white;
 
         }
+
+.cards-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
 .container{
     background-color: aliceblue;
     border-radius: 20px;
     border:0px  solid grey;
-    width:400px;
+    width:450px;
     height:200px;
     margin:10px;
     box-shadow: 0px 0px 50px 1px grey;
+    
     
 }
 
@@ -27,6 +34,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    
 
 }
 
@@ -60,6 +68,8 @@
     </style>
 </head>
 <body>
+
+<div  class="cards-container">
     <div class="container">
         <div class="quick-card">
          <img  src="affordable.png" alt="affortable" class="aff-image"/>
@@ -67,6 +77,22 @@
     </div>
         <p class="text"> Our course price ranges from ₹499 to ₹1999. Which is less than 1% of the cost of a college degree in India, and we provide more practical and industry-oriented knowledge.</p>
     </div>
-    
+
+    <div class="container">
+        <div class="quick-card">
+         <img  src="live-classes.png" alt="live" class="aff-image"/>
+         <h1 class="header"> Live interactive classes </h1>
+    </div>
+        <p class="text">Attend live class and get your doubts cleared by the instructor in real-time just like a physical classroom. No boring pre-recorded videos. </p>
+    </div>
+
+    <div class="container">
+        <div class="quick-card">
+         <img  src="recorded-classes.png" alt="recorded" class="aff-image"/>
+         <h1 class="header">  Recorded Videos of Live Classes. </h1>
+    </div>
+        <p class="text"> Missed a class? or want to revise? No worries, watch the recorded sessions of live classes multiple times at your own pace and time to understand the concepts better.</p>
+    </div>
+</div>
 </body>
 </html>
